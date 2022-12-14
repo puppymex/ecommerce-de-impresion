@@ -5,29 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>productos</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+<img class="imagen_posicion" src="imagenes/logo.png" alt="logo">
+<h1 class="tituloPrincipal">FAISAN GRAPHICS</h1>
 <body>
     <header>
         <nav>
-            <ul>
-               <li>
-                <a href="./index.html">Inicio</a>
-               </li> 
-               <li>
-                <a href="./quienes-somos.html">¿Quienes somos?</a>
-               </li> 
-               <li>
-                <a href="./producto.html">Productos</a>
-               </li> 
-               <li>
-                <a href="./contacto.html">Contacto</a>
-               </li> 
-            </ul>
+            <ul class="barra_nav">
+                <li class="nav_item">
+                 <a class="titulos" href="./index.html">Inicio</a>
+                </li> 
+                <li class="nav_item">
+                 <a class="titulos" href="./quienes-somos.html">¿Quienes somos?</a>
+                </li> 
+                <li class="nav_item">
+                 <a class="titulos" href="./producto.html">Productos</a>
+                </li> 
+                <li class="nav_item">
+                 <a class="titulos" href="./contacto.html">Contacto</a>
+                </li>
+                <li class="nav_item">
+                 <input type="text" name="busqueda" id="busqueda" placeholder="buscar">
+                </li> 
+                <li class="nav_item">
+                 <img class="carrito" src="imagenes/carrito.png" alt="carrito">
+                </li>
+             </ul>
         </nav>
     </header>
     <main>
         <section>
-            <h1>productos</h1>
+            <h1 class="subtituloIndex">PRODUCTOS</h1>
             <div>
                 <select name="" id="">
                     <option value="serigrafia">serigrafia</option>
@@ -37,18 +46,22 @@
                 </select>
             </div>
         </section>
-        <aside>
-            <h2>corte vinil</h2>
-            <img src="imagenes/corte vinil.jpg" alt="colocacion de vinil en ventana">
-            <h3>diseño ddigital</h3>
-            <img src="imagenes/diseño dig.jpg" alt="poster">
-            <h4>serigrafia</h4>
-            <img src="imagenes/serigrafia.jpeg" alt="mochila serigrafia">
-            <h5>sublimado</h5>
-            <img src="imagenes/gorra sublimada.png" alt="gorra impresa">
-        </aside>
+        <section class="imagen_grid">
+            <h2 class="subtituloIndex">CORTE VINIL</h2>
+            <p class="parrafo1">El Corte en Vinil es un sistema de presentación gráfica que involucra un Plotter y al vinil. Aunque éste no se limita al corte estricto y permite elaborar suajes precisos en trabajos de impresión. El corte de vinil es la alternativa ideal para señalizar, anunciar, elaborar carteles, cortar stickers, entre otras más. </p>
+            <img class="imagen_posicion" src="imagenes/corte vinil.jpg" alt="colocacion de vinil en ventana">
+            <h3 class="subtituloIndex">DISEÑO DIGITAL</h3>
+            <p class="parrafo1">El diseño digital es un término que engloba cualquier forma de comunicación visual y contenido que utilice una interfaz digital para ofrecer información, un producto o un servicio a quien tenga la suerte de verlo. </p>
+            <img class="imagen_posicion" src="imagenes/diseño dig.jpg" alt="poster">
+            <h4 class="subtituloIndex">SERIGRAFÍA</h4>
+            <p class="parrafo1">La serigrafía consiste en transferir el logo o la imagen que se desea estampar a través de una malla denominada pantalla. Por cada color que se quiera, necesitamos una pantalla adicional. Estas pantallas permiten pasar la tinta para formar el dibujo deseado. </p>
+            <img class="imagen_posicion" src="imagenes/serigrafia.jpeg" alt="mochila serigrafia">
+            <h5 class="subtituloIndex">SUBLIMADO</h5>
+            <p class="parrafo1">Lo que llamamos sublimación textil es una técnica que se utiliza mayoritariamente para personalizar o imprimir prendas blancas de poliéster 100%. Es el sistema de impresión ideal para las prendas técnicas ya que permite la transpiración. El calor normalmente se aplica con una prensa o plancha térmica.</p>
+            <img class="imagen_posicion" src="imagenes/gorra sublimada.png" alt="gorra impresa">
+        </section>
         <footer>
-            <p>todos los derechos reservados</p>
+            <p class="derechosReservados">todos los derechos reservados</p>
         </footer>
     </main>
 </body>

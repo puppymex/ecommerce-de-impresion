@@ -7,35 +7,41 @@
     <title>inicio</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<img src="imagenes/logo.png" alt="logo">
+<img class="imagen_posicion" src="imagenes/logo.png" alt="logo">
 <h1 class="tituloPrincipal">FAISAN GRAPHICS</h1>
 <body>
     <header>
         <nav>
-            <ul>
-               <li>
-                <a class="inicio" href="./index.html">Inicio</a>
+            <ul class="barra_nav">
+               <li class="nav_item">
+                <a class="titulos" href="./index.html">Inicio</a>
                </li> 
-               <li>
-                <a class="quienes" href="./quienes-somos.html">¿Quienes somos?</a>
+               <li class="nav_item">
+                <a class="titulos" href="./quienes-somos.html">¿Quienes somos?</a>
                </li> 
-               <li>
-                <a class="producto" href="./producto.html">Productos</a>
+               <li class="nav_item">
+                <a class="titulos" href="./producto.html">Productos</a>
                </li> 
-               <li>
-                <a class="contacto" href="./contacto.html">Contacto</a>
+               <li class="nav_item">
+                <a class="titulos" href="./contacto.html">Contacto</a>
+               </li>
+               <li class="nav_item">
+                <input type="text" name="busqueda" id="busqueda" placeholder="buscar">
                </li> 
+               <li class="nav_item">
+                <img class="carrito" src="imagenes/carrito.png" alt="carrito">
+               </li>
             </ul>
         </nav>
     </header>
     <main>
         <section>
             <h2 class="subtituloIndex">Diseño digital e impresion</h2>
-            <img class="srigrafia" src="imagenes/srigrafia.jpg" alt="serigrafia">
+            <img class="imagen_posicion" src="imagenes/srigrafia.jpg" alt="serigrafia">
             <p class="parrafo1">Agencia de diseño digital e impresion de medios tradicionlaes 
                 y publicitarios, trabajamos de manera rapida y eficaz para tu
                 mayor comodidad </p>
-                <aside><iframe width="560" height="315" src="https://www.youtube.com/embed/526pXl6iYWA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></aside>
+                <aside class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/526pXl6iYWA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></aside>
         </section>
         <footer>
             <p class="derechosReservados">todos los derechos reservados</p>

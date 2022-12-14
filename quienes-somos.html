@@ -5,33 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>quienes somos</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+<img class="imagen_posicion" src="imagenes/logo.png" alt="logo">
+<h1 class="tituloPrincipal">FAISAN GRAPHICS</h1>
 <body>
     <header>
         <nav>
-            <ul>
-               <li>
-                <a href="./index.html">Inicio</a>
-               </li> 
-               <li>
-                <a href="./quienes-somos.html">¿Quienes somos?</a>
-               </li> 
-               <li>
-                <a href="./producto.html">Productos</a>
-               </li> 
-               <li>
-                <a href="./contacto.html">Contacto</a>
-               </li> 
-            </ul>
+            <ul class="barra_nav">
+                <li class="nav_item">
+                 <a class="titulos" href="./index.html">Inicio</a>
+                </li> 
+                <li class="nav_item">
+                 <a class="titulos" href="./quienes-somos.html">¿Quienes somos?</a>
+                </li> 
+                <li class="nav_item">
+                 <a class="titulos" href="./producto.html">Productos</a>
+                </li> 
+                <li class="nav_item">
+                 <a class="titulos" href="./contacto.html">Contacto</a>
+                </li>
+                <li class="nav_item">
+                 <input type="text" name="busqueda" id="busqueda" placeholder="buscar">
+                </li> 
+                <li class="nav_item">
+                 <img class="carrito" src="imagenes/carrito.png" alt="carrito">
+                </li>
+             </ul>
         </nav>
     </header>
     <main>
-        <h1>¿Quienes somos?</h1>
+        <h2>¿Quienes somos?</h2>
+
+        <p class="parrafo1">Somos una agencia de diseño y nos dedicamos a la impresion y digitalización de ideas, buscamos crear tus ideas en fisicas, realizamos impresion en sublimado, serigrafia, vinil, textil.  </p>
+       
+        <p class="parrafo1">Buscamos ser creativos y funcionales, y de esa forma poder solucionar problemas de comunicación o ayudarte a comunicarte de manera adecuada con diferentes formas.</p>
+       
         <section>
             <h2>donde nos ubicamos</h2>
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7569.105312253943!2d-97.41732250000003!3d18.45860950000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1668987424080!5m2!1ses-419!2smx" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             <h3>hacienda calcahualco 3613 jardines de tehuacan </h3>
         </section>
+        <footer>
+            <p class="derechosReservados">todos los derechos reservados</p>
+        </footer>
     </main>
 </body>
 </html>

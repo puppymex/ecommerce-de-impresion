@@ -5,29 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>contacto</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+<img class="imagen_posicion" src="imagenes/logo.png" alt="logo">
+<h1 class="tituloPrincipal">FAISAN GRAPHICS</h1>
 <body>
     <header>
         <nav>
-            <ul>
-               <li>
-                <a href="./index.html">Inicio</a>
-               </li> 
-               <li>
-                <a href="./quienes-somos.html">¿Quienes somos?</a>
-               </li> 
-               <li>
-                <a href="./producto.html">Productos</a>
-               </li> 
-               <li>
-                <a href="./contacto.html">Contacto</a>
-               </li> 
-            </ul>
+            <ul class="barra_nav">
+                <li class="nav_item">
+                 <a class="titulos" href="./index.html">Inicio</a>
+                </li> 
+                <li class="nav_item">
+                 <a class="titulos" href="./quienes-somos.html">¿Quienes somos?</a>
+                </li> 
+                <li class="nav_item">
+                 <a class="titulos" href="./producto.html">Productos</a>
+                </li> 
+                <li class="nav_item">
+                 <a class="titulos" href="./contacto.html">Contacto</a>
+                </li>
+                <li class="nav_item">
+                 <input type="text" name="busqueda" id="busqueda" placeholder="buscar">
+                </li> 
+                <li class="nav_item">
+                 <img class="carrito" src="imagenes/carrito.png" alt="carrito">
+                </li>
+             </ul>
         </nav>
     </header>
     <main>
         <section>
-            <h1>cotizaciones</h1>
+            <h2>Cotizaciones</h2>
             <form>
                 <label for="">Nombre</label>
                 <input type="text" name="" id="">
@@ -42,7 +51,7 @@
                     <input type="radio" name="" id="">
                     <label for="">corte vinil</label>
                     <input type="radio" name="" id="">
-                    <label for="">diseño digitl</label>
+                    <label for="">diseño digital</label>
                     <input type="radio" name="" id="">
                     <label for="">sublimado</label>
                     <input type="radio" name="" id="">
@@ -56,10 +65,11 @@
                     <label for="">tarjeta</label>
                     <input type="checkbox" name="" id="">
                 </div>
-                <input type="submit" value="enviar datos">      
+                <input type="submit" value="enviar datos">  
+                <img class="carrito" src="imagenes/th.jfif" alt="sobre">    
               </section>
         <footer>
-            <p>todos los derechos reservados</p>
+            <p class="derechosReservados">todos los derechos reservados</p>
         </footer>
     </main>
 </body>
