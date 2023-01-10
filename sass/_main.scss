@@ -1,7 +1,27 @@
 main{
-    section{
-        .tituloPrincipal {
-            font-family: $tipografiaPrincipal;
+    section {
+        .subtituloIndex {
+            font-size: 20px;
+            color: blueviolet;
+            text-decoration: solid;
+        }
+        p {
+            @extend .subtituloIndex
+        }
+        .serigrafia {
+            @include servicios (red);
+        }
+        .corte_vinil {
+            @include servicios (yellow);
+        }
+        .diseño_digital {
+            @include servicios (orange);
+        }
+        .sublimado {
+            @include servicios (violet);
+        }
+        
         }
     }
-}
+
+   
