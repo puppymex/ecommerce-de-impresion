@@ -1,0 +1,17 @@
+header {
+    background-color: rgb(63, 10, 223);
+    nav {
+        width: 100%;
+        .barra_nav {
+            display: flex;
+            justify-content: space-evenly;
+            li{
+                list-style: none;
+                a{
+                    text-decoration: none;
+                    color: rgb(52, 217, 37);
+                }
+            }
+        }
+    }
+}

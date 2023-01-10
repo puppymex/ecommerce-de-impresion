@@ -1,0 +1,20 @@
+{
+  "name": "ecommerce-de-impresion",
+  "version": "1.0.0",
+  "description": "Negocio de venta de impresion sublimada",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/puppymex/ecommerce-de-impresion.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/puppymex/ecommerce-de-impresion/issues"
+  },
+  "homepage": "https://github.com/puppymex/ecommerce-de-impresion#readme"
+}
